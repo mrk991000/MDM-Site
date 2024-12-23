@@ -44,10 +44,10 @@ export const Navbar = () => {
           <div className="hidden lg:flex h-full ml-auto">
             {navbarLinks.map(({ href, label, ariaLabel }) => (
               <a
+                key={href}  // Use href as the key for unique identification
                 className="text-white lg:text-base text-2xl leading-6 mr-4 ml-4 2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium hover:scale-110 transition h-full pt-2"
                 href={href}
                 aria-label={ariaLabel}
-                key={label}
               >
                 {label}
               </a>
@@ -80,7 +80,7 @@ export const Navbar = () => {
             >
               {navbarLinks.map(({ label, href, ariaLabel }) => (
                 <a
-                  key={href}
+                  key={href}  // Again, use href as the key for unique identification
                   className="text-white lg:text-base text-2xl leading-6 cursor-pointer font-normal lg:font-medium hover:scale-110 transition duration-300 h-full pt-2"
                   href={href}
                   onClick={() => setIsOpen(false)}
@@ -93,6 +93,6 @@ export const Navbar = () => {
           </motion.div>
         )}
       </AnimatePresence>
-    </nav>  {/* This closes the <nav> tag */}
+    </nav>
   );
 };
