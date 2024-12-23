@@ -37,21 +37,10 @@ export const Footer = () => {
                   <TailcastLogo />
                 </div>
                 <div className="text-white font-['Inter'] font-bold text-xl">
-                  Tailcast
+                  MDM
                 </div>
               </div>
-              <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
-                Dashboard images were made using free Dark Admin dashboard that
-                you can find
-                <a
-                  href="https://bootstrapious.com/p/bootstrap-4-dark-admin"
-                  target="_blank"
-                  className="text-gray-100 ml-1.5 "
-                  aria-label="Dark Admin Dashboard"
-                >
-                  here.
-                </a>
-              </p>
+  
               <div className="w-36 mx-auto lg:mx-0">
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 pt-[0.55rem] outlined-button"
@@ -67,13 +56,7 @@ export const Footer = () => {
                 >
                   <TwitterIcon />
                 </a>
-                <a
-                  className="inline-block w-10  h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem] outlined-button"
-                  href="#"
-                  aria-label="Instagram"
-                >
-                  <InstagramIcon />
-                </a>
+                
               </div>
             </div>
             <div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-wrap justify-between">
