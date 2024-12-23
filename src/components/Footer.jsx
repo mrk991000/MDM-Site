@@ -1,13 +1,6 @@
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
 
-const footerData = [
-  {
-    title: "Shortcuts",
-    items: ["Download", "Features", "FAQ"],
-  },
-];
-
 export const Footer = () => {
   return (
     <footer aria-label="Site footer">
@@ -44,22 +37,7 @@ export const Footer = () => {
             </div>
 
             
-            <div className="w-full md:w-1/3 lg:w-auto">
-              <h3 className="mb-6 text-2xl font-bold text-primaryText">Shortcuts</h3>
-              <ul>
-                {footerData[0].items.map((item, index) => (
-                  <li key={`${item}-${index}`} className="mb-4">
-                    <a
-                      className="text-gray-400 hover:text-gray-300"
-                      href="#"
-                      aria-label={item}
-                    >
-                      {item}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          
           </div>
         </div>
       </div>
