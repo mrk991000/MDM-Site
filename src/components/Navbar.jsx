@@ -5,9 +5,9 @@ import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { GithubIcon } from "../assets/icons/GithubIcon";
 
 const navbarLinks = [
-  { label: "Home", href: "/#home", ariaLabel: "Home" },
-  { label: "Features", href: "/#features", ariaLabel: "Features" },
-  { label: "Pricing", href: "/#pricing", ariaLabel: "Pricing" },
+  { label: "Home", href: "/", ariaLabel: "Home" },
+  { label: "Download", href: "/#home", ariaLabel: "Features" },
+  { label: "Features", href: "/#features", ariaLabel: "Pricing" },
   { label: "Feedback", href: "/#feedback", ariaLabel: "Feedback" },
   { label: "FAQ", href: "/#FAQ", ariaLabel: "FAQ" },
 ];
@@ -33,7 +33,7 @@ export const Navbar = () => {
                 <TailcastLogo />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
-                Tailcast
+                MDM
               </div>
             </div>
           </a>
@@ -110,14 +110,7 @@ export const Navbar = () => {
                   {label}
                 </a>
               ))}
-              <a
-                className="outlined-button pl-6 pr-8 pt-2 pb-2  flex"
-                href="https://github.com/matt765/Tidestream"
-                target="_blank"
-              >
-                <GithubIcon />
-                Source code
-              </a>
+              
             </div>
           </motion.div>
         )}
