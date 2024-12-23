@@ -4,7 +4,7 @@ import { TailcastLogo } from "../assets/logos/TailcastLogo";
 const footerData = [
   {
     title: "Shortcuts",
-    items: ["Download", "Features", "Feedback", "FAQ"],
+    items: ["Download", "Features", "FAQ"],
   },
 ];
 
