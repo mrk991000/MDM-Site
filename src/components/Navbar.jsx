@@ -8,7 +8,7 @@ export const Navbar = () => {
 
   return (
     <nav className="w-full h-20 flex justify-center items-center fixed bg-bgDark1 lg:bg-bgDarkTransparent z-40 lg:backdrop-blur-xl" aria-label="Main navigation">
-      <div className="2xl:w-[1280px] xl:w-10/12 w-11/12 flex justify-between items-center relative">
+      <div className="2xl:w-[1280px] xl:w-10/12 w-11/12 flex justify-center items-center relative">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -16,10 +16,12 @@ export const Navbar = () => {
           exit={{ opacity: 0 }}
         >
           <a href="/#home" aria-label="Home">
-            <div className="flex justify-start items-center grow basis-0">
+            <div className="flex justify-center items-center">
+              {/* Logo Icon */}
               <div className="text-white mr-2 text-6xl">
                 <TailcastLogo />
               </div>
+              {/* MDM Text */}
               <div className="text-white font-['Inter'] font-bold text-xl">
                 MDM
               </div>
