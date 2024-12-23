@@ -52,9 +52,8 @@ export const Hero = () => {
           <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-24 sm:mb-40 justify-center">
             <button
               className="contained-button w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
-              onClick=onClick={(e) => {
-      e.preventDefault();
-      window.location.href='http://google.com';
+              onClick=onClick={() => {
+                href='http://google.com';
       }}
               aria-label="Download"
             >
@@ -62,9 +61,8 @@ export const Hero = () => {
             </button>
             <button
               className="w-64 sm:w-52 h-12 rounded-xl font-bold text-primaryText border border-solid  flex justify-center items-center cursor-pointer bg-bgDark2 hover:bg-bgDark3 border-primaryColor transition"
-              onClick=onClick={(e) => {
-      e.preventDefault();
-      window.location.href='http://google.com';
+              onClick=onClick={(e => {
+      href='http://google.com';
       }}
               aria-label="Other Versions"
             >
