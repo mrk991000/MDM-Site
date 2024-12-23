@@ -2,13 +2,6 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
-import { GithubIcon } from "../assets/icons/GithubIcon";
-
-const navbarLinks = [
-  { label: "Home", href: "/", ariaLabel: "Home" },
-  { label: "Download", href: "/#home", ariaLabel: "Download" },
-  { label: "Features", href: "/#features", ariaLabel: "Features" },
-];
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,27 +27,8 @@ export const Navbar = () => {
           </a>
         </motion.div>
 
-        {/* Right-aligned Navbar Links */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.3 }}
-          exit={{ opacity: 0 }}
-        >
-          <div className="hidden lg:flex h-full ml-auto">
-            {navbarLinks.map(({ href, label, ariaLabel }) => (
-              <a
-                key={href}  // Use href as the key for unique identification
-                className="text-white lg:text-base text-2xl leading-6 mr-4 ml-4 2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium hover:scale-110 transition h-full pt-2"
-                href={href}
-                aria-label={ariaLabel}
-              >
-                {label}
-              </a>
-            ))}
-          </div>
-        </motion.div>
-
+        {/* Removed Navbar Links (Home, Download, Features) */}
+        
         {/* Hamburger Button for Mobile */}
         <div
           className="lg:hidden flex flex-col px-2 py-3 border-solid border border-gray-600 rounded-md cursor-pointer hover:bg-bgDark2"
@@ -78,17 +52,7 @@ export const Navbar = () => {
             <div
               className="flex flex-col mt-16 lg:hidden absolute top-4 left-0 w-full bg-bgDark1 z-50 items-center gap-10 pb-10 border-y border-solid border-bgDark3 pt-10"
             >
-              {navbarLinks.map(({ label, href, ariaLabel }) => (
-                <a
-                  key={href}  // Again, use href as the key for unique identification
-                  className="text-white lg:text-base text-2xl leading-6 cursor-pointer font-normal lg:font-medium hover:scale-110 transition duration-300 h-full pt-2"
-                  href={href}
-                  onClick={() => setIsOpen(false)}
-                  aria-label={ariaLabel}
-                >
-                  {label}
-                </a>
-              ))}
+              {/* Removed Navbar Links for Mobile */}
             </div>
           </motion.div>
         )}
