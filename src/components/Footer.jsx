@@ -4,24 +4,10 @@ import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { TwitterIcon } from "../assets/icons/TwitterIcon";
 
 const footerData = [
+  
   {
-    title: "Products",
-    items: ["Services", "About Us", "News and Stories", "Roadmap"],
-  },
-  {
-    title: "Important Links",
-    items: [
-      "Organization Team",
-      "Our Journeys",
-      "Pricing Plans",
-      "Roadmap",
-      "Terms & Conditions",
-      "Privacy Policy",
-    ],
-  },
-  {
-    title: "Company",
-    items: ["About Us", "Jobs", "Press", "Contact Us"],
+    title: "Shortcuts",
+    items: ["Download", "Features", "Feedback", "FAQ"],
   },
 ];
 
@@ -101,7 +87,7 @@ export const Footer = () => {
                     <li key={`${item}-${index}`} className="mb-4">
                       <a
                         className="text-gray-400 hover:text-gray-300"
-                        href="#"
+                        href="#home"
                         aria-label={item}
                       >
                         {item}
