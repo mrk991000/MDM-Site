@@ -4,12 +4,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { GithubIcon } from "../assets/icons/GithubIcon";
 
-const navbarLinks = [
-  { label: "Home", href: "/", ariaLabel: "Home" },
-  { label: "Download", href: "/#home", ariaLabel: "Download" },
-  { label: "Features", href: "/#features", ariaLabel: "Features" },
-];
-
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -41,30 +35,7 @@ export const Navbar = () => {
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}
         >
-          <div className="hidden lg:flex h-full ml-auto">
-            {navbarLinks.map(({ href, label, ariaLabel }) => (
-              <a
-                className="text-white lg:text-base text-2xl leading-6 mr-4 ml-4 2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium hover:scale-110 transition h-full pt-2"
-                href={href}
-                aria-label={ariaLabel}
-                key={label}
-              >
-                {label}
-              </a>
-            ))}
-          </div>
-        </motion.div>
-
-        {/* Hamburger Button for Mobile */}
-        <div
-          className="lg:hidden flex flex-col px-2 py-3 border-solid border border-gray-600 rounded-md cursor-pointer hover:bg-bgDark2"
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          <div className="w-5 h-0.5 bg-gray-500 mb-1"></div>
-          <div className="w-5 h-0.5 bg-gray-500 mb-1"></div>
-          <div className="w-5 h-0.5 bg-gray-500"></div>
-        </div>
-      </div>
+        
 
       {/* Mobile Navbar */}
       <AnimatePresence>
