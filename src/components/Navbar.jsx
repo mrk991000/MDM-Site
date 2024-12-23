@@ -8,7 +8,6 @@ const navbarLinks = [
   { label: "Home", href: "/", ariaLabel: "Home" },
   { label: "Download", href: "/#home", ariaLabel: "Features" },
   { label: "Features", href: "/#features", ariaLabel: "Pricing" },
-  { label: "Feedback", href: "/#feedback", ariaLabel: "Feedback" },
   { label: "FAQ", href: "/#FAQ", ariaLabel: "FAQ" },
 ];
 
