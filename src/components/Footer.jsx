@@ -21,15 +21,15 @@ export const Footer = () => {
               <div className="w-24 mx-auto lg:mx-0">
                 <a
                   className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] outlined-button"
-                  href="#"
-                  aria-label="Facebook"
+                  href="https://discord.gg/cyXwEgY3"
+                  aria-label="Discord"
                 >
                   <InstagramIcon  />
                 </a>
                 <a
                   className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem] outlined-button"
-                  href="#"
-                  aria-label="Twitter"
+                  href="https://telegram.me/moderndownloadmanager"
+                  aria-label="Telegram"
                 >
                   <InstagramIcon  />
                 </a>
