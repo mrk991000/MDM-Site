@@ -50,7 +50,7 @@ export const Footer = () => {
               <div className="w-full md:w-1/3 lg:w-auto">
                 <h3 className="mb-6 text-2xl font-bold text-primaryText">Shortcuts</h3>
                 <ul>
-                  {footerData[2].items.map((item, index) => (
+                  {footerData[0].items.map((item, index) => (
                     <li key={`${item}-${index}`} className="mb-4">
                       <a
                         className="text-gray-400 hover:text-gray-300"
