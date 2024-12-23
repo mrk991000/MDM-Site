@@ -4,8 +4,9 @@ import { motion } from "framer-motion";
 import { InvitationModal } from "./InvitationModal";
 import dashboard from "../assets/images/dashboard.jpg";
 
-  const handleButtonClick = () => {
-    window.open("https://www.example.com", "_blank"); // Open in a new tab
+const handleButtonClick = () => {
+    // Navigate to an external link in the same tab
+    window.location.href = "https://www.example.com";
   
 export const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
