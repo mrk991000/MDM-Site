@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 import { InvitationModal } from "./InvitationModal";
 import dashboard from "../assets/images/dashboard.jpg";
-function MyComponent() {
+
   const handleButtonClick = () => {
     window.open("https://www.example.com", "_blank"); // Open in a new tab
-  };
+  
 export const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
