@@ -33,19 +33,19 @@ export const Footer = () => {
                   href="#"
                   aria-label="Facebook"
                 >
-                  <TailcastLogo  />
+                  <InstagramIcon  />
                 </a>
                 <a
                   className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem] outlined-button"
                   href="#"
                   aria-label="Twitter"
                 >
-                  <TailcastLogo  />
+                  <InstagramIcon  />
                 </a>
               </div>
             </div>
 
-            {/* Right section with shortcuts */}
+            
             <div className="w-full md:w-1/3 lg:w-auto">
               <h3 className="mb-6 text-2xl font-bold text-primaryText">Shortcuts</h3>
               <ul>
