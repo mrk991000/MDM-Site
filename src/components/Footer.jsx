@@ -19,16 +19,16 @@ export const Footer = () => {
                 </div>
               </div>
 
-              <div className="w-24 mx-auto lg:mx-0">
+              <div className="w-20 mx-auto lg:mx-0">
                 <a
-                  className="inline-block w-8 h-8 mr-2 p-2 pt-[0.55rem] outlined-button"
+                  className="inline-block w-9 h-9 mr-2 p-2 pt-[0.55rem] outlined-button"
                   href="https://discord.gg/cyXwEgY3"
                   aria-label="Discord"
                 >
                   <DiscordIcon  />
                 </a>
                 <a
-                  className="inline-block w-8 h-8 mr-2 p-2 pt-[0.55rem] pl-[0.55rem] outlined-button"
+                  className="inline-block w-9 h-9 mr-2 p-2 pt-[0.55rem] pl-[0.55rem] outlined-button"
                   href="https://telegram.me/moderndownloadmanager"
                   aria-label="Telegram"
                 >
