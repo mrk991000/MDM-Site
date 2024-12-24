@@ -1,5 +1,5 @@
-import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TelegramIcon } from "../assets/icons/TelegramIcon";
+import { DiscordIcon } from "../assets/icons/DiscordIcon";
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
 
 export const Footer = () => {
@@ -25,7 +25,7 @@ export const Footer = () => {
                   href="https://discord.gg/cyXwEgY3"
                   aria-label="Discord"
                 >
-                  <InstagramIcon  />
+                  <DiscordIcon  />
                 </a>
                 <a
                   className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem] outlined-button"
