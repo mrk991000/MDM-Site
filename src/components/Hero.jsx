@@ -41,7 +41,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <h2 className="text-secondaryText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
-            Free, Fast and easy to use download manager made for you...
+            Powerful, Fast & Free Download Manager
           </h2>
         </motion.div>
         <motion.div
@@ -55,7 +55,7 @@ export const Hero = () => {
               onClick={() => window.location.href = "https://www.example.com/"} 
               aria-label="Download"
             >
-          Download
+          Download For Windows
             </button>
             <button
               className="w-64 sm:w-52 h-12 rounded-xl font-bold text-primaryText border border-solid  flex justify-center items-center cursor-pointer bg-bgDark2 hover:bg-bgDark3 border-primaryColor transition"
