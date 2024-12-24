@@ -31,8 +31,8 @@ export const Hero = () => {
             <h1 className="inline md:hidden">MODERN</h1>
             <h1 className="hidden md:inline">MODERN</h1>
           </div>
-          <h1 className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-primaryText  px-8 sm:px-20 md:px-24 lg:px-24">
-            Download Manager
+          <h1 className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-normal tracking-wide  text-secondaryText  px-8 sm:px-20 md:px-24 lg:px-24">
+            Download&nbsp;Manager
           </h1>
         </motion.div>
         <motion.div
