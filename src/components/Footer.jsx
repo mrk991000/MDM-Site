@@ -1,4 +1,5 @@
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
+import { TelegramIcon } from "../assets/icons/TelegramIcon";
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
 
 export const Footer = () => {
@@ -31,7 +32,7 @@ export const Footer = () => {
                   href="https://telegram.me/moderndownloadmanager"
                   aria-label="Telegram"
                 >
-                  <InstagramIcon  />
+                  <TelegramIcon  />
                 </a>
               </div>
             </div>
