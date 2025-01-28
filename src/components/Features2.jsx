@@ -39,7 +39,7 @@ export const Features2 = () => (
               Never Lose Your Progress In Downloading Files
             </h2>
             <p className="mb-12 text-secondaryText leading-loose">
-              Monitor and track the progress with ease. You Dont need to download files over and over again because network problems or disconnections
+              Monitor and track the progress with ease. You Dont need to download files over and over again because of network problems or disconnections
             </p>
             <ul className="mb-6 text-primaryText">
               <li className="mb-4 flex">
