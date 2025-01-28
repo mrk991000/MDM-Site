@@ -28,8 +28,8 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.05 }}
         >
           <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-primaryText  px-8 sm:px-8 md:px-20 lg:px-4">
-            <h1 className="inline md:hidden">مجتبی دلقک</h1>
-            <h1 className="hidden md:inline">سیرک مجتبی</h1>
+            <h1 className="inline md:hidden">MODERN</h1>
+            <h1 className="hidden md:inline">MODERN</h1>
           </div>
           <h1 className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-normal tracking-wide  text-secondaryText  px-8 sm:px-20 md:px-24 lg:px-24">
             Download&nbsp;Manager
