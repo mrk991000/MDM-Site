@@ -17,9 +17,7 @@ export const Footer = () => {
               src={dashboard.src}
               />
                 </div>
-                <div className="text-white font-['Inter'] font-bold text-xl">
-                  MDM
-                </div>
+                
               </div>
 
               <div className="w-24 mx-auto lg:mx-0">
