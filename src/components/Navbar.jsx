@@ -19,11 +19,11 @@ export const Navbar = () => {
           <a href="/#home" aria-label="Home">
             <div className="flex justify-center items-center">
               {/* Logo Icon */}
-              <div className="text-white mr-2 text-6xl">
+             
                <img
               src={dashboard.src}
               />
-              </div>
+              
               {/* MDM Text */}
             
             </div>
