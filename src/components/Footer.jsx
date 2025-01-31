@@ -20,7 +20,7 @@ export const Footer = () => {
                 
               </div>
 
-              <div className="w-24 mx-auto lg:mx-0">
+              <div className="w-24 mx-auto lg:mx-0 mt-4">
                 <a
                   className="inline-block w-9 h-9 mr-2 p-2 pt-[0.55rem] outlined-button"
                   href="https://discord.gg/cyXwEgY3"
