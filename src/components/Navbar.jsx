@@ -20,9 +20,9 @@ export const Navbar = () => {
             <div className="flex justify-center items-center">
               {/* Logo Icon */}
              
-               <img
-              src={dashboard.src}
-              />
+               <div className="text-white font-['Inter'] font-bold text-xl">
+                MDM
+              </div>
               
               {/* MDM Text */}
             
