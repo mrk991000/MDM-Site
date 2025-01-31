@@ -19,7 +19,11 @@ export const Navbar = () => {
             <div className="flex justify-center items-center">
               {/* Logo Icon */}
               <div className="text-white mr-2 text-6xl">
-                <TailcastLogo />
+               <img
+              src={dashboard.src}
+              alt="Dashboard image"
+              className="w-4/5 2xl:w-[1200px] mx-auto absolute z-10 rounded-xl main-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
+            />
               </div>
               {/* MDM Text */}
               <div className="text-white font-['Inter'] font-bold text-xl">
