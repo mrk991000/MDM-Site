@@ -13,7 +13,9 @@ export const Footer = () => {
             <div className="w-full lg:w-1/3 mb-16 lg:mb-0">
               <div className="flex justify-center lg:justify-start items-center grow basis-0">
                 <div className="text-white mr-2 text-6xl">
-                  <TailcastLogo />
+                   <img
+              src={dashboard.src}
+              />
                 </div>
                 <div className="text-white font-['Inter'] font-bold text-xl">
                   MDM
