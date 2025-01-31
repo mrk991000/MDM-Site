@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 
 import { InvitationModal } from "./InvitationModal";
 import dashboard from "../assets/images/dashboard.jpg";
-  
+import icon from "../assets/images/icon.png";
+
 export const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -19,7 +20,7 @@ export const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <img
-              src={dashboard.src}
+              src={icon.src}
               />
         </motion.div>
         <motion.div
