@@ -1,6 +1,7 @@
 import { TelegramIcon } from "../assets/icons/TelegramIcon";
 import { DiscordIcon } from "../assets/icons/DiscordIcon";
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
+import dashboard from "../assets/images/icon.png";
 
 export const Footer = () => {
   return (
