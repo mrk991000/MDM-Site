@@ -18,13 +18,13 @@ export const Navbar = () => {
         >
           <a href="/#home" aria-label="Home">
             <div className="flex justify-center items-center">
-              {/* Logo Icon */}
+             
              
                <div className="text-white font-['Inter'] font-bold text-xl">
-                MDM
+                Modern Download Manager
               </div>
               
-              {/* MDM Text */}
+            
             
             </div>
           </a>
