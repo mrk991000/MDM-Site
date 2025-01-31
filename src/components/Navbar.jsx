@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
+import dashboard from "../assets/images/dashboard.jpg";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
