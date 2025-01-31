@@ -19,9 +19,9 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <img
-              src={icon.src}
-              />
+          <h3 className="text-secondaryColor text-sm sm:text-base  mb-6 sm:mt-32 mt-16  font-bold">
+          MDM
+          </h3>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 10 }}
