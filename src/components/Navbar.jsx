@@ -25,9 +25,7 @@ export const Navbar = () => {
               />
               </div>
               {/* MDM Text */}
-              <div className="text-white font-['Inter'] font-bold text-xl">
-                MDM
-              </div>
+            
             </div>
           </a>
         </motion.div>
