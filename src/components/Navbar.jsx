@@ -18,9 +18,9 @@ export const Navbar = () => {
         >
           <a href="/#home" aria-label="Home">
             <div className="flex justify-center items-center">
-               <img
-              src={dashboard.src}
-              />
+               <div className="text-white font-['Inter'] font-bold text-xl">
+                Modern Download Manager
+              </div>
             </div>
           </a>
         </motion.div>
