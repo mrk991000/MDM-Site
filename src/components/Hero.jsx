@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 import { InvitationModal } from "./InvitationModal";
-import dashboard from "../assets/images/bannerbg.jpg";
+import dashboard from "../assets/images/banerbg.jpg";
 import icon from "../assets/images/icon.png";
 
 export const Hero = () => {
