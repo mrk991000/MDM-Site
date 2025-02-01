@@ -1,7 +1,7 @@
 import { TelegramIcon } from "../assets/icons/TelegramIcon";
 import { DiscordIcon } from "../assets/icons/DiscordIcon";
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
-import dashboard from "../assets/images/icon.png";
+import dashboard from "../assets/images/logo.png";
 
 export const Footer = () => {
   return (
@@ -17,9 +17,7 @@ export const Footer = () => {
               src={dashboard.src}
               />
                 </div>
-                <div className="text-white font-['Inter'] font-bold text-xl">
-                  Modern Download Manager
-                </div>
+                
               </div>
 
               <div className="w-24 mx-auto lg:mx-0 mt-4">
