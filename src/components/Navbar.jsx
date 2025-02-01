@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
-import dashboard from "../assets/images/icon.png";
+import dashboard from "../assets/images/logo.png";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,9 +18,9 @@ export const Navbar = () => {
         >
           <a href="/#home" aria-label="Home">
             <div className="flex justify-center items-center">
-               <div className="text-white font-['Inter'] font-bold text-xl">
-                Modern Download Manager
-              </div>
+               <img
+              src={dashboard.src}
+              />
             </div>
           </a>
         </motion.div>
