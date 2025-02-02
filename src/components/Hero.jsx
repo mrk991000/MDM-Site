@@ -56,7 +56,7 @@ export const Hero = () => {
               onClick={() => window.location.href = "https://github.com/mrk991000/MDM/releases/download/demo/MDM.exe"} 
               aria-label="Download"
             >
-          Download For Windows
+          Download(Windows)
             </button>
             <button
               className="w-64 sm:w-52 h-12 rounded-xl font-bold text-primaryText border border-solid  flex justify-center items-center cursor-pointer bg-bgDark2 hover:bg-bgDark3 border-primaryColor transition"
