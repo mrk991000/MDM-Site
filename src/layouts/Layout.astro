@@ -11,8 +11,7 @@ export interface Props {
 }
 
 const { title } = Astro.props;
-const title = "Modern Download Manager";
-const description = "Your Favorite Download Manager";
+
 ---
 
 <!doctype html>
@@ -26,10 +25,6 @@ const description = "Your Favorite Download Manager";
        name="description"
       content="Your Favorite Download Manager"
     />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://moderndownloadmanager.netlify.app/" />
     <title>{title}</title>
   </head>
   <body class="bg-bgDark2">
