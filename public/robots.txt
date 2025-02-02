@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://moderndownloadmanager.netlify.app/sitemap.xml
