@@ -26,6 +26,10 @@ const { title } = Astro.props;
       content="Your Favorite Download Manager"
     />
     <title>{title}</title>
+ <meta
+       name="title"
+      content={title}
+    />
   </head>
   <body class="bg-bgDark2">
     <main aria-label="Main content">
