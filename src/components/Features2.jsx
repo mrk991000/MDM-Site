@@ -34,12 +34,12 @@ export const Features2 = () => (
 
         <div className="w-full lg:w-1/2 mb-12 lg:mb-0 xl:pl-8">
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-            <span className="block-subtitle">Safe</span>
+            <span className="block-subtitle">Fast</span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
-              Never Lose Your Progress In Downloading Files
+              Download Full Speed
             </h2>
             <p className="mb-12 text-secondaryText leading-loose">
-              Monitor and track the progress with ease. You Dont need to download files over and over again because of network problems or disconnections
+              Full speed download
             </p>
             <ul className="mb-6 text-primaryText">
               <li className="mb-4 flex">
